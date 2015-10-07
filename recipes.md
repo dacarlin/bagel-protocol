@@ -1,6 +1,8 @@
 # Recipes 
 
-This is deep prep: making the stock solutions that you will use throughout the procedures in this repository. For ideas of where to source parts, check out the [parts list](https://docs.google.com/spreadsheets/d/106pUlbfcXcYa9Vg8fXZFAt3Imil9BYLZ1ztZ-R9lcZw/edit?usp=sharing). **Advice:** Approach deep prep with the patience of a Zen master. 
+This is deep prep: making the stock solutions that you will use throughout the procedures in this repository. For ideas of where to source parts, check out the [parts list](https://docs.google.com/spreadsheets/d/106pUlbfcXcYa9Vg8fXZFAt3Imil9BYLZ1ztZ-R9lcZw/edit?usp=sharing). 
+
+**Advice:** Approach deep prep with the patience of a Zen master. 
 
 ## LB plates with kanamycin (25 plates)
 
