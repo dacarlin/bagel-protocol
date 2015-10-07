@@ -1,10 +1,10 @@
 # Recipes 
 
-This is deep prep: making the stock solutions that you will use throughout the procedures in this folder. For ideas of where to source parts, check out the [parts list](https://docs.google.com/spreadsheets/d/106pUlbfcXcYa9Vg8fXZFAt3Imil9BYLZ1ztZ-R9lcZw/edit?usp=sharing)
+This is deep prep: making the stock solutions that you will use throughout the procedures in this folder. For ideas of where to source parts, check out the [parts list](https://docs.google.com/spreadsheets/d/106pUlbfcXcYa9Vg8fXZFAt3Imil9BYLZ1ztZ-R9lcZw/edit?usp=sharing). Approach deep prep with the patience of a Zen master. 
 
 ## LB plates with kanamycin (25 plates)
 
-Autoclave 250 mL water with 2 pellets of LB agar in a 500 mL bottle. After autoclaving, hold in 50 C dry bath until 50 C, then add 250 μL 1000X kanamycin solution. Use a serological pipet to pour 10 mL per plate
+Autoclave 300 mL water with 2 pellets of LB agar in a 500 mL bottle. After autoclaving, hold in 50 C dry bath until 50 C, then add 250 μL 1000X kanamycin solution. Use a serological pipet to pour 10 mL per plate. (Alternatively: autoclave, allow to solidify and store at room temperature. To use, microwave for 5 min, hold in 50 C dry bath till 50 C, add kanamycin, and pour.)
 
 ## Lysis mix (100 reactions)
 
