@@ -7,9 +7,8 @@ For this procedure, typical yields are 1.0 ± 0.4 mg/mL for the wild type protei
 Before beginning, make sure you have the following:
 
 + thermocyler or dry bath
-+ 37 C standing and shaking incubators
-+ centrifuge 
-+ 
++ 37 C standing and 37 C and 18 C shaking incubators
++ centrifuge for 50 mL Falcon tubes and 2 mL tubes 
 
 ## Day 1: Transformation 
 
@@ -22,14 +21,14 @@ Mutant plasmid solution | > 20 ng/μL | 2 μL
 Terrific broth (TB) | | 200 μL
 LB agar plates with kanamycin | | 1
 Sterile glass beads | | 8–10 
-2 mL tube | | 1
+15 mL round-bottom culture tube | | 1
 
 ### Mise en place
 
 + waste bucket 
 + P2 and tips, P200 and tips
 + Ice in ice bucket
-+ Pre-warmed 42 C dry bath or thermocycler
++ Pre-warmed 42 C dry bath 
 
 ### Hardware
 
@@ -37,20 +36,23 @@ Sterile glass beads | | 8–10
 
 ### Instructions 
 
-1. Set 2 mL tubes on ice, one per mutant
-2. When the tubes are ice cold, add plasmid and competent cells and incubate on ice for 10 minutes 
-3. Heat shock at 42 C for 60 seconds 
-4. Incubate on ice for 5 minutes 
-5. Add 200 µL Terrific Broth and recover at 37 C for 1 hour
-6. Pipet 200 µL recovered cells on to plate, add glass beads, shake, and get rid of beads
-7. Incubate plate upside down overnight at 37 C
+1. Set round-bottom tubes on ice, one per mutant
+2. When the tubes are ice cold, add plasmid and competent cells and incubate on ice for at least 10 minutes (20 min is better) 
+3. Heat shock at 42 C for 90 seconds 
+4. Incubate on ice for 90 seconds 
+5. Add 200 µL Terrific Broth and recover with shaking at 37 C for 1 hour
+6. Place plates in incubator upside down to warm them
+7. Right before the hour is up, add glass beads to each plate
+6. Pipet 200 µL recovered cells on to plate and shake to spread out the cells
+7. After waiting a minute so that the liquid is absorbed, turn the plates upside down so that the beads fall onto the underside of the lid, and deposit beads into bleach solution for later recovery
+7. Incubate plate *upside down* overnight at 37 C
 
 ### Tips and tricks 
 
 + Chemical competent cells should be kept on ice at all times and never warmed
 + Program the thermocycler to perform steps 1-5
 + Some tips for [troubleshooting transformations from New England Biolabs](https://www.neb.com/tools-and-resources/usage-guidelines/chemical-transformation-tips) 
-
++ If you are getting poor transformation efficiency, try recovering with 500 µL of media
 
 ## Day 2: Growth 
 
@@ -63,20 +65,29 @@ Terrific Broth | 5 mL
 Kanamycin solution | 5 μL
 Tube seal | 1
 
+### Mise en place 
+
++ 50 mL tube rack 
++ waste bucket 
++ pre-cut seals
++ pipets and tips 
++ markers 
++ serological pipet aspirator 
++ 25 mL serological pipet
+
 ### Instructions 
 
-1. Record the number of colonies on your transformation plate.  
-2. Add kanamycin solution to Terrific Broth to make a batch of growth media for all of your mutants. Make enough for one extra culture. 
+1. Record the number of colonies on your transformation plate 
+2. Add kanamycin solution to Terrific Broth to make a batch of growth media for all of your mutants. Make enough for one extra culture
 3. Aliquot 5 mL growth media to a Falcon tube 
-1. Using a pipettor, carefully scrape a single colony from the plate and dip in the growth media in the Falcon tube while pipeting up and down to start the culture
+1. Using a pipet, carefully scrape a single colony from the plate and dip in the growth media in the Falcon tube, and pipet up and down a few times 
 2. Repeat for the other plates 
 5. Seal the cultures with tube seals 
 6. Incubate with shaking at 37 C for 24 hours
 
-
 ### Tips and tricks 
 
-+ If you have a lot of colonies, divide the plate into quadrants, count one quadrant, and multiply the resultant number by 4 to estimate how many colonies you got.
++ If you have a lot of colonies, divide the plate into quadrants, count one quadrant, and multiply the resultant number by 4 to estimate how many colonies you got
 
 
 ## Day 3: Expression cultures 
