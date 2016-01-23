@@ -10,6 +10,35 @@ Before beginning, make sure you have the following:
 + 37 C standing and 37 C and 18 C shaking incubators
 + centrifuge for 50 mL Falcon tubes and 2 mL tubes 
 
+## Day 0: Automated Kunkel mutagenesis 
+
+After you have designed your set of mutants, an automated Kunkel mutagenesis procedure will be carried out on [Transcriptic](https://www.transcriptic.com/)'s workcell. The wild type Bagel plasmid is mutated to your designed sequence using the procedure that's described in [Thomas Kunkel's original procedure](http://www.pnas.org/content/82/2/488.full.pdf) and in [our group's manual Kunkel protocol](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE). If you're interested, the [Python code that automates the Kunkel procedure and algorithmicly evaluates sequence verification](https://github.com/dacarlin/bagel-orders) is together but still a little messy (could use a second set of eyes on it).
+
+After your mutant plasmids have been Kunkel'd and sequenced, you'll get them in the mail ready for Day 1.
+
+### When you get your mutants 
+
+**Note**: Everybody's mutants arrive together in a 96-well plate along with a CSV file that tells you where each mutant is on the plate. 
+
+Material | Concentration  | Amount per reaction
+---------|----------------|--------------------
+2 mL tube | | 1
+tube label | | 1
+
+### Mise en place
+
+*Mise en place* is a French culinary phrase which means "putting in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift. ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place))
+
++ waste bucket 
++ P200 and tips
+
+### Instructions 
+
+1. Find your mutant in the CSV file (make sure to verifiy the plate barcode matches the sheet)
+2. Write the mutant name on a ToughTag tube label and affix to a 2 mL tube 
+2. Once you know which well your mutant is in, pipet the entire volume of that well into the tube
+3. Store your mutants at -20 C in the "Bagel" box or go immediately to Day 1
+
 ## Day 1: Transformation 
 
 In this step, you will transform the plasmids encoding your mutant genes into *Escherichia coli BL21(DE3)*. Transformation is the process of physically shocking the bacteria to induce them to take up foreign DNA from the environment. Today, you will heat shock the *E. coli* to induce the uptake of the plasmid encoding the mutant you designed. 
@@ -92,7 +121,7 @@ Tube seal | 1
 
 ## Day 3: Expression cultures 
 
-In this step, you will exchange the spent growth media in your cultures with fresh growth media supplemented with IPTG. IPTG will induces expression of your target protein. 
+In this step, you will exchange the spent growth media in your cultures with fresh growth media supplemented with [isopropyl β-D-1-thiogalactopyranoside](https://en.wikipedia.org/wiki/Isopropyl_β-D-1-thiogalactopyranoside) (IPTG). IPTG induces expression of your target protein. [Molecular details of how the expression system works](http://www.genomics.agilent.com/article.jsp%3FpageId%3D472). 
 
 Material | Amount per reaction
 ---------|---
@@ -130,9 +159,7 @@ _Minirecipe_: 5 mL induction medium = 5 mL Terrific Broth + 5 µL kanamycin solu
 
 ### Tips for today 
 
-+ Devise a clever way to simplify resuspension 
-+ [More information about how the pET expression system works](http://www.genomics.agilent.com/article.jsp%3FpageId%3D472)
-
++ **Challenge**: Devise a clever way to simplify resuspension so that a robot could do it
 
 ## Day 4: Protein purification 
 
