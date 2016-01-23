@@ -25,14 +25,14 @@ Material | Concentration  | Amount per reaction
 2 mL tube | | 1
 tube label | | 1
 
-### Mise en place
+#### Mise en place
 
 *Mise en place* is a French culinary phrase which means "putting in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift. ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place))
 
 + waste bucket 
 + P200 and tips
 
-### Instructions 
+#### Instructions 
 
 1. Find your mutant in the CSV file (make sure to verifiy the plate barcode matches the sheet)
 2. Write the mutant name on a ToughTag tube label and affix to a 2 mL tube 
