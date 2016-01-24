@@ -190,25 +190,41 @@ Ni-NTA resin slurry | 100 μL
 
 ## Method 
 
-_Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix
+_Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix. Multiply by number of mutants plus 1 to determine how much to make. 
+
+### Purification 
 
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
 2. While they are spinning, make lysis buffer
 3. Useal culture and pour away supernatant 
-4. Add 500 uL wash buffer to pellet and vortex to resuspend (should have about 1 mL in there) 
-1. Aliquot 500 µL lysis buffer into resuspended pellets in 2 mL tubes
-1. Rock tubes for 20 minutes 
-1. Centrifuge at 14,700 RPM for 20 minutes to clarify the lysate 
+4. Label a 2 mL tube for each of your mutants 
+4. Add 500 uL wash buffer to each pellet and vortex to resuspend (should have about 1 mL in there) 
+1. Aliquot 500 µL lysis buffer into 2 mL tubes, one per mutant
+2. Transfer the resuspended pellets (1 mL volume each) to the labeled tubes with the lysis buffer
+1. Rock tubes for 30 minutes 
+1. Centrifuge at 14,700 RPM for 30 minutes  
 1. While centrifuging, prep your microcolumns
-2. Set cleaned microcolumns (if necessary, rinse with water) in rack over waste collector 
-1. Add 100uL of nickel resin (blue) from 50% slurry to each microcolumn
+2. Set cleaned microcolumns (if necessary, rinse thoroughly with water) in rack over waste collector 
+3. Vigorously mix the 50% Ni-NTA resin slurry by shaking the bottle    
+1. Add 100 µL nickel resin (blue) from slurry to each microcolumn
 1. Add 500 µL of wash buffer and allow to drip through
 1. Once the lysed cultures have finished spinning, add 500 µL of clarified supernatant and allow to drip through 
-1. Add another 500 µL of supernatant and allow to drip through  
-1. Wash six times with 500 µL of wash buffer, allow to drip through each time, nice to have a repeater for this 
-1. Once all unwanted proteins have been washed away, transfer column to fresh tube
+1. Pipet the rest of the supernatant away from the pellet and add to column. Allow to drip through  
+1. Wash six times with 500 µL of wash buffer, allow to drip through each time
+2. While you're washing, label fresh 2 mL tubes for each mutant 
+1. Once all unwanted proteins have been washed away, transfer column to appropriate fresh tube
 1. Add 100 µL protein buffer directly to beads and incubate at room temperature for five minutes 
-1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
-1. Wash out the columns
+1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid. 
+2. The labeled tube contains your **purified protein**
+3. Clean out the used columns by rinsing in deionized water 
+
+### Quantitation of protein yield 
+
+1. ...
+
+### SDS-PAGE 
+
+1. ...
+
 2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
 3. Purified protein can be stored at 4 C for up to 48 hours before assay 
