@@ -195,6 +195,7 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
 2. While they are spinning, make lysis buffer
 3. Useal culture and pour away supernatant 
+4. Weigh your expression pellet and record the weight on the report sheet
 4. Add 500 uL wash buffer to pellet and vortex to resuspend (should have about 1 mL in there) 
 1. Aliquot 500 µL lysis buffer into resuspended pellets in 2 mL tubes
 1. Rock tubes for 20 minutes 
