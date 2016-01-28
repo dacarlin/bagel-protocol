@@ -4,11 +4,11 @@ This is a guide to the production and purification of β-glucosidase B from *P. 
 
 For this procedure, typical yields are 1.0 ± 0.4 mg/mL for the wild type protein. 
 
-Before beginning, make sure you have the following:
+Before beginning, make sure you have the following ready and standing by:
 
-+ thermocyler or dry bath
-+ 37 C standing and 37 C and 18 C shaking incubators
-+ centrifuge for 50 mL Falcon tubes and 2 mL tubes 
++ dry bath set to 42 C
++ 37 C standing, 37 C shaking, and 18 C shaking incubators
++ centrifuges for 50 mL Falcon tubes (up to 4,700 RPM) and 2 mL tubes (up to 14,700 RPM) 
 
 ## Day 0: Automated Kunkel mutagenesis 
 
@@ -27,7 +27,7 @@ tube label | | 1
 
 #### Mise en place
 
-*Mise en place* is a French culinary phrase which means "putting in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift. ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place))
+*Mise en place* is a French culinary phrase which means "putting in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place)). 
 
 + waste bucket 
 + P200 and tips
@@ -37,6 +37,7 @@ tube label | | 1
 1. Find your mutant in the CSV file (make sure to verifiy the plate barcode matches the sheet)
 2. Write the mutant name on a ToughTag tube label and affix to a 2 mL tube 
 2. Once you know which well your mutant is in, pipet the entire volume of that well into the tube
+3. Reseal the plate and store at -20 C
 3. Store your mutants at -20 C in the "Bagel" box or go immediately to Day 1
 
 ## Day 1: Transformation 
@@ -81,7 +82,7 @@ Sterile glass beads | | 8–10
 + Chemical competent cells should be kept on ice at all times and never warmed
 + Program the thermocycler to perform steps 1-5
 + Some tips for [troubleshooting transformations from New England Biolabs](https://www.neb.com/tools-and-resources/usage-guidelines/chemical-transformation-tips) 
-+ If you are getting poor transformation efficiency, try recovering with 500 µL of media
++ If you are getting poor transformation efficiency, try recovering with 400 µL of media for 2 hours at 37 C
 
 ## Day 2: Growth 
 
@@ -163,7 +164,7 @@ _Minirecipe_: 5 mL induction medium = 5 mL Terrific Broth + 5 µL kanamycin solu
 
 ## Day 4: Protein purification 
 
-Today, you will purify the protein you designed for testing! 
+Today, you will purify the protein you designed for testing using a technique called *immobilized metal ion chromatography*. 
 
 Material | Amount per reaction
 ---------|-----------------------------
@@ -190,26 +191,26 @@ Ni-NTA resin slurry | 100 μL
 
 ## Method 
 
-_Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix
+_Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix. Make enough for n+2 cultures
 
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
-2. While they are spinning, make lysis buffer
+2. While they are spinning, make lysis buffer and set on rocker
 3. Useal culture and pour away supernatant 
 4. Weigh your expression pellet and record the weight on the report sheet
 4. Add 500 uL wash buffer to pellet and vortex to resuspend (should have about 1 mL in there) 
+5. Aliquot the resuspended pellets to fresh 2 mL tubes 
 1. Aliquot 500 µL lysis buffer into resuspended pellets in 2 mL tubes
-1. Rock tubes for 20 minutes 
-1. Centrifuge at 14,700 RPM for 20 minutes to clarify the lysate 
-1. While centrifuging, prep your microcolumns
-2. Set cleaned microcolumns (if necessary, rinse with water) in rack over waste collector 
-1. Add 100uL of nickel resin (blue) from 50% slurry to each microcolumn
-1. Add 500 µL of wash buffer and allow to drip through
+1. Rock tubes for 30 minutes at room temperature 
+1. Centrifuge at 14,700 RPM for 30 minutes to clarify the lysate 
+1. While centrifuging, prep your microcolumns. Set cleaned microcolumns (if necessary, rinse with water) in rack over waste collector 
+1. Add 100 µL Ni-NTA resin slurry to each microcolumn
+1. Add 500 µL wash buffer and allow to drip through
 1. Once the lysed cultures have finished spinning, add 500 µL of clarified supernatant and allow to drip through 
 1. Add another 500 µL of supernatant and allow to drip through  
-1. Wash six times with 500 µL of wash buffer, allow to drip through each time, nice to have a repeater for this 
+1. Wash six times with 500 µL of wash buffer, allow to drip through each time
 1. Once all unwanted proteins have been washed away, transfer column to fresh tube
 1. Add 100 µL protein buffer directly to beads and incubate at room temperature for five minutes 
 1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
 1. Wash out the columns
 2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
-3. Purified protein can be stored at 4 C for up to 48 hours before assay 
+3. Purified protein can be stored at 4 C for up to 48 hours  
