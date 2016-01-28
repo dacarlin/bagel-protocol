@@ -2,9 +2,12 @@
 
 The characterization of point mutants of β-glucosidase B from *P. polymxa* ("Bagel") is an ongoing project in the Siegel group. This repository contains all the laboratory protocols for the production and assay of mutants of this enzyme. 
 
-+ In our group, we use an automated Kunkel mutagenesis procedure that runs on [Transcriptic's workcell](https://www.transcriptic.com/). [This document](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE) contains the Siegel group protocol for a manual Kunkel mutagenesis procedure. 
++ In our group, we use an automated Kunkel mutagenesis procedure that runs on [Transcriptic's workcell](https://www.transcriptic.com/). Single-stranded DNA for this protocol is available for free from our lab, please email us. If you would like to perform this procedure by hand, you can follow [the Siegel group protocol for a manual Kunkel mutagenesis procedure](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE). 
+
+The following protocols are used in our lab: 
+
 + `production.md` contains the instructions for production of protein beginning from purified plasmid 
-+ `kinetics.md` contains instructions for an assay to determine Michaelis-Menten parameters in a convenient plate assay 
++ `kinetics.md` contains instructions for determining Michaelis-Menten parameters from a convenient plate assay 
 + `thermostability.md` contains instructions for an assay to determine an enzyme's thermal denaturation temperature
 + `recipes.md` contains recipes for stock solutions used in the above three protocols 
 
