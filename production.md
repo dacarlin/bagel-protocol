@@ -217,6 +217,8 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid. 
 2. The labeled tube contains your **purified protein**
 3. Clean out the used columns by rinsing in deionized water 
+4. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
+3. Purified protein can be stored at 4 C for up to 48 hours before assay 
 
 ### Quantitation of protein yield 
 
@@ -224,7 +226,36 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 
 ### SDS-PAGE 
 
-1. ...
+To run a gel of your mutants, collect the following materials:
 
-2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
-3. Purified protein can be stored at 4 C for up to 48 hours before assay 
++ 20X MES running buffer 
++ 4X Lamelli sample buffer (supplanted with beta-mercaptoethanol)
++ Your undiluted protein samples (elutate) 
++ Protein ladder
++ Life Tech protein gel
++ Gel stain 
+
+(Hardware: Gel box, breaker bar, graduated cylinders)
+
+#### Instructions
+
++ Prepare 16 µL aliquots of your proteins in PCR strip tubes by adding 4 µL loading dye and 12 µL purified protein
++ Heat in the thermal cycler for 10 min at 95 C
++ While heating, make 500 mL of working concentration (1X) MES buffer by diluting 25 mL of 20X MES into 475 mL of MilliQ water 
++ Remove the gel from the packaging, remove the comb, remove the white strip
++ Mount the gel in the gel box and cover with buffer (you will use almost all of the 500 mL)
++ Load 10 µL of the Kalidescope protein ladder in the first well
++ Load your protein samples, one per well
++ Write down which protein samples go in which well and save the Excel sheet 
++ Set the gel box to run at 165 V for 35 minutes 
++ Run the gel
++ After 35 min, remove the top of the gel box and unclamp the gel
++ Fill a Tupperware about half way with deionized water 
++ **Carefully** break the gel open into the water in the tupperware
++ Pour away the water, keeping the gel in there
++ Add just enough gel stain to barely cover the gel (10-15 mL)
++ Gently shake the gel overnight
++ The next day, pour away the stain and put in dionized water (about 50-100 mL) to destain
++ Destain overnight
++ Image the gel using the BioRad, label the lanes according to your key (make sure to label the ladder as well with the name of the ladder you used)
++ Save the gel image, and clean the BioRad tray
