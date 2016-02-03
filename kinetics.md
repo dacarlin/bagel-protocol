@@ -7,7 +7,8 @@ This assay assumes that you have followed the protein production and purificatio
 + waste bucket 
 + pipet basin 
 + P200 and tips
-+ Multichannel pipet 5-50 µL
++ Multi-channel P50 and tips
++ Multi-channel P300 and tips 
 
 ## Software 
 
@@ -24,9 +25,9 @@ Protein buffer |  |
 1. For each mutant, label two 2 mL tubes
 2. Mix 90 μL substrate stock and 10 μL purified protein
 3. Wait five minutes for results 
-3. **If** this turns yellow within five minutes:
+3. **If this turns yellow within five minutes**:
    + make a 1/100 dilution. In the fresh tube, add 10 μL purified protein and 990 μL wash buffer
-4. **Else if it doesn't turn yellow**:
+4. **Else (if it doesn't turn yellow within five minutes)**:
    + make a 1/10 dilution. In the fresh tube, add 100 μL purified protein and 900 μL wash buffer
 
 1. **Important:** Use the diluted purified protein for the remainder of the procedure. The undiluted stock can be used to run a gel and quantiate protein concentration by measuring absorbance at 280 nm. 
