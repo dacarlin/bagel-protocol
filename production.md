@@ -1,8 +1,12 @@
 # Production and purification of BglB
 
+## Mise en place 
+*Mise en place* is a French culinary phrase meaning "put in place", as in the English phrase "to set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place)). You will find the concept indespensible in your lab work 
+
+## Introduction 
+
 This is a guide to the production and purification of β-glucosidase B from *P. polymxa* beginning with purified plasmid and ending with purified protein. This protocol and the associated scripts and data in this repository are part of the [Siegel group](https://sites.google.com/site/ucdsiegellab/)'s "Bagel" project. 
 
-For this procedure, typical yields are 1.0 ± 0.4 mg/mL for the wild type protein. 
 
 Before beginning, make sure you have the following ready and standing by:
 
@@ -12,33 +16,12 @@ Before beginning, make sure you have the following ready and standing by:
 
 ## Day 0: Automated Kunkel mutagenesis 
 
-After you have designed your set of mutants, an automated Kunkel mutagenesis procedure will be carried out on [Transcriptic](https://www.transcriptic.com/)'s workcell. The wild type Bagel plasmid is mutated to your designed sequence using the procedure that's described in [Thomas Kunkel's original procedure](http://www.pnas.org/content/82/2/488.full.pdf) and in [our group's manual Kunkel protocol](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE). If you're interested, the [Python code that automates the Kunkel procedure and algorithmicly evaluates sequence verification](https://github.com/dacarlin/bagel-orders) is together but still a little messy (could use a second set of eyes on it).
+After you design your mutants, an automated Kunkel mutagenesis procedure will be carried out on [Transcriptic](https://www.transcriptic.com/)'s workcell. The wild type Bagel plasmid is mutated to your designed sequence via Kunkel mutagenesis (see [Thomas Kunkel's original procedure](http://www.pnas.org/content/82/2/488.full.pdf) and in [our group's manual Kunkel protocol](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE)).
 
-After your mutant plasmids have been Kunkel'd and sequenced, you'll get them in the mail ready for Day 1.
 
 ### When you get your mutants 
 
-**Note**: Everybody's mutants arrive together in a 96-well plate along with a CSV file that tells you where each mutant is on the plate. 
-
-Material | Concentration  | Amount per reaction
----------|----------------|--------------------
-2 mL tube | | 1
-tube label | | 1
-
-#### Mise en place
-
-*Mise en place* is a French culinary phrase which means "putting in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place)). 
-
-+ waste bucket 
-+ P200 and tips
-
-#### Instructions 
-
-1. Find your mutant in the CSV file (make sure to verifiy the plate barcode matches the sheet)
-2. Write the mutant name on a ToughTag tube label and affix to a 2 mL tube 
-2. Once you know which well your mutant is in, pipet the entire volume of that well into the tube
-3. Reseal the plate and store at -20 C
-3. Store your mutants at -20 C in the "Bagel" box or go immediately to Day 1
+After your mutant plasmids have been Kunkel'd and sequenced, you'll get them in the mail. To get ready for Day 1, follow the procedure for receiving plasmids from GenScript in `receiving.md` in this repo. 
 
 ## Day 1: Transformation 
 
@@ -186,8 +169,11 @@ Ni-NTA resin slurry | 100 μL
 + waste bucket 
 + tube rack 
 + flow-through collector
-+ microcolumns
++ clean (rinsed) microcolumns
 + P1000 and tips 
++ P200 and tips 
++ large centrifuge set to 4,700 RPM
++ small centrifuge set to 14,700 RPM 
 
 ## Method 
 
@@ -196,7 +182,7 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
 2. While they are spinning, make lysis buffer and set on rocker
 3. Useal culture and pour away supernatant 
-4. Weigh your expression pellet and record the weight on the report sheet
+4. Weigh your expression pellet and record the weight 
 4. Add 500 uL wash buffer to pellet and vortex to resuspend (should have about 1 mL in there) 
 5. Aliquot the resuspended pellets to fresh 2 mL tubes 
 1. Aliquot 500 µL lysis buffer into resuspended pellets in 2 mL tubes
@@ -214,3 +200,7 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 1. Wash out the columns
 2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
 3. Purified protein can be stored at 4 C for up to 48 hours  
+
+###  Notes 
+
++ For this procedure, typical yields are 1.0 ± 0.4 mg/mL for the wild type protein. 
