@@ -47,7 +47,7 @@ In this step, you will transform the plasmids encoding your mutant genes into *E
 Material | Concentration  | Amount per reaction
 ---------|----------------|--------------------
 Chemically-competent *Escherichia coli* BL21(DE3) | | 30 μL 
-Mutant plasmid solution | > 20 ng/μL | 2 μL
+Mutant plasmid solution | > 20 ng/μL | 1 μL
 Terrific broth (TB) | | 200 μL
 LB agar plates with kanamycin | | 1
 Sterile glass beads | | 8–10 
@@ -70,8 +70,8 @@ Sterile glass beads | | 8–10
 2. When the tubes are ice cold, add plasmid and competent cells and incubate on ice for at least 10 minutes (20 min is better) 
 3. Heat shock at 42 C for 90 seconds 
 4. Incubate on ice for 90 seconds 
-5. Add 200 µL Terrific Broth and recover with shaking at 37 C for 1 hour
-6. Place plates in incubator upside down to warm them
+5. Add 200 µL Terrific Broth and recover with shaking at 37 C for 1 hour 
+6. Label the plates and place in incubator upside down to warm them 
 7. Right before the hour is up, add glass beads to each plate
 6. Pipet 200 µL recovered cells on to plate and shake to spread out the cells
 7. After waiting a minute so that the liquid is absorbed, turn the plates upside down so that the beads fall onto the underside of the lid, and deposit beads into bleach solution for later recovery
