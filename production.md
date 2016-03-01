@@ -94,14 +94,14 @@ Transformation plate | 1
 Terrific Broth | 5 mL
 Kanamycin solution | 5 μL
 Tube seal | 1
+50 mL Falcon tube | 1 
 
 ### Mise en place 
 
 + 50 mL tube rack 
 + waste bucket 
 + pre-cut seals
-+ pipets and tips 
-+ markers 
++ P1000 and tips 
 + serological pipet aspirator 
 + 25 mL serological pipet
 
@@ -109,10 +109,9 @@ Tube seal | 1
 
 1. Record the number of colonies on your transformation plate 
 2. Add kanamycin solution to Terrific Broth to make a batch of growth media for all of your mutants. Make enough for one extra culture
-3. Aliquot 5 mL growth media to a Falcon tube 
-1. Using a pipet, carefully scrape a single colony from the plate and dip in the growth media in the Falcon tube, and pipet up and down a few times 
-2. Repeat for the other plates 
-5. Seal the cultures with tube seals 
+3. Aliquot 5 mL growth media to each 50 mL Falcon tube 
+1. Using a pipet, carefully scrape a single colony from the plate and dip in the growth media in the Falcon tube, and pipet up and down a few times to inoculate the culture 
+5. Seal the cultures with tube seals (if needed, cut them into small squares first) 
 6. Incubate with shaking at 37 C for 24 hours
 
 ### Tips and tricks 
