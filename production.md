@@ -226,36 +226,43 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 
 ### SDS-PAGE 
 
-To run a gel of your mutants, collect the following materials:
+#### Materials
 
-+ 20X MES running buffer 
-+ 4X Lamelli sample buffer (supplanted with beta-mercaptoethanol)
-+ Your undiluted protein samples (elutate) 
-+ Protein ladder
-+ Life Tech protein gel
-+ Gel stain 
+Material | Amount Per Reaction
+-------------|-----------
+Purified Protein | 12 µL 
+4x Loading Dye | 4 µL
+PCR Tubes | 1 
 
-(Hardware: Gel box, breaker bar, graduated cylinders)
+Material | Amount Per Experiment
+----------|------------
+Protein Gel | 1
+Biorad Kaleidoscope Ladder | 8 µL 
+Coomassie Stain Dye | 10mL
+20x MES Buffer | 25 mL
+Graduated Cylinder | 500mL
 
-#### Instructions
+#### Procedure
 
-+ Prepare 16 µL aliquots of your proteins in PCR strip tubes by adding 4 µL loading dye and 12 µL purified protein
-+ Heat in the thermal cycler for 10 min at 95 C
-+ While heating, make 500 mL of working concentration (1X) MES buffer by diluting 25 mL of 20X MES into 475 mL of MilliQ water 
-+ Remove the gel from the packaging, remove the comb, remove the white strip
-+ Mount the gel in the gel box and cover with buffer (you will use almost all of the 500 mL)
-+ Load 10 µL of the Kalidescope protein ladder in the first well
-+ Load your protein samples, one per well
-+ Write down which protein samples go in which well and save the Excel sheet 
-+ Set the gel box to run at 165 V for 35 minutes 
-+ Run the gel
-+ After 35 min, remove the top of the gel box and unclamp the gel
-+ Fill a Tupperware about half way with deionized water 
-+ **Carefully** break the gel open into the water in the tupperware
-+ Pour away the water, keeping the gel in there
-+ Add just enough gel stain to barely cover the gel (10-15 mL)
-+ Gently shake the gel overnight
-+ The next day, pour away the stain and put in dionized water (about 50-100 mL) to destain
-+ Destain overnight
-+ Image the gel using the BioRad, label the lanes according to your key (make sure to label the ladder as well with the name of the ladder you used)
-+ Save the gel image, and clean the BioRad tray
+1. Pipet 4 µL of 4x concentrate loading dye in each labeled PCR tube
+2. Pipet 12 µL of protein into each PCR tube. Pipet up and down slowly to mix well!
+3. Heat to 95 C for 10 minutes in thermocycler
+4. Prepare protein gel. Remove the comb from the well on top of the gel, and remove the tape from the back.
+5. Assemble gel electrophoresis apparatus. Lock in gel, also assemble electrodes: red to red, black to black. 
+6. Create 1x MES Buffer Solution from 20X stock. To make 500 mL, mix 25 mL 20X MES buffer and 475 mL MilliQ water in a graduated cylinder.
+7. Pour 1X Buffer Solution into gel electrophoresis apparatus.
+8. Load 6 µL of Biorad Keleidoscope into one well. 
+9. Load 12 µL of the heated, dyed protein into gel wells (make sure to note the which protein is in which well)
+If you are running more than one gel it is a good idea to load the ladder into different positions in each gel to make distinguishing between them easier.
+10. Set machine for 165 Volts and 400 milliamps for 35 minutes
+11. Observe bubbles coming from the bottom of the gel. This indicates that the gel is running properly. 
+12. Once gel is done, carefully crack open plastic around gel.
+13. Slide gel into Tupperware filled with deionized water; pour off water; submerge gel into enough Coomassie blue dye to cover the gel. Less is more.
+14. Shake stained gel for 1- 2 hours.  
+15. Pour off stain and refill Tupperware with deionized water to destain the gel. 
+16. Shake gel and destain for 12+ hours.
+17. Get plate reader ready. Wash off the white gel plate with deionized water and dry with kim wipes. 
+18. Pour off deionized water, we are now ready to scan our gel.
+19. Place gel on plate reader on scanner.
+20. Read image using image lab; annotate gel lanes with protein and ladder labels
+21. Analyze and save data; compare gel yields to spectrophotometer readings; discard gel
