@@ -192,6 +192,8 @@ Ni-NTA resin slurry | 100 μL
 
 _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix. Make enough for n+2 cultures
 
+### Purification 
+
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
 2. While they are spinning, make lysis buffer and set on rocker
 3. Useal culture and pour away supernatant 
@@ -208,8 +210,8 @@ _Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1
 1. Add another 500 µL of supernatant and allow to drip through  
 1. Wash six times with 500 µL of wash buffer, allow to drip through each time
 1. Once all unwanted proteins have been washed away, transfer column to fresh tube
-1. Add 100 µL protein buffer directly to beads and incubate at room temperature for five minutes 
-1. Add second 100 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
+1. Add 150 µL protein buffer directly to beads and incubate at room temperature for five minutes 
+1. Add second 150 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
 1. Wash out the columns
 2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
 3. Purified protein can be stored at 4 C for up to 48 hours  
