@@ -84,10 +84,11 @@ Advice:
 
 ### Gen5 setup 
 
-Set up the Gen5 software that runs the Epoch and Synergy in the following way: 
+Set up the Gen5 software that runs the Epoch and Synergy with a program like this.  
 
 + run for 1 hour, full plate absorbance reading at 420 nm at 60 second intervals 
+
+For calculating rates, these settings can be found in the sidebar under "Data Reduction > Calculation Options":
+
 + calculate maximum rate (MaxV [420]) based on 20 points 
-
-These settings can be found under "Data Reduction > Calculation Options"
-
++ calculate maximum rate (MaxV [420]) in units of OD/min 
