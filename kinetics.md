@@ -27,7 +27,7 @@ Protein buffer |  |
 3. Wait five minutes for results 
 3. If this turns yellow within five minutes:
    + make a 1/100 (100-fold) dilution: in the fresh tube, add 10 μL purified protein and 990 μL wash buffer
-4. If this **does not** yellow within five minutes:
+4. If this **does not** turn yellow within five minutes:
    + make a 1/10 (10-fold) dilution: in the fresh tube, add 100 μL purified protein and 900 μL wash buffer
 
 Your diluted proteins will be used in the rest of the assay. You can store your purified protein at 4 C for up to 48 hours.  
