@@ -1,4 +1,4 @@
-# Assay to determine kinetic parameters of BglB mutants 
+# Determine kinetic parameters of BglB mutants 
 
 This assay assumes that you have followed the protein production and purification steps in `production.md` in this repository. 
 
