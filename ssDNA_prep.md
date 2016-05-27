@@ -71,7 +71,7 @@ ddiH2O    |     n/a       |       18 ul
 
 ### Instructions
 
-*Minirecipe:* 3ul PNK Buffer + 1ul ATP + 1ul T4 Polynucleotide Kinase + 18ul ddih2O
+*Minirecipe:* KRM (n+2) = 3ul PNK Buffer + 1ul ATP + 1ul T4 Polynucleotide Kinase + 18ul ddih2O
 
 1. Spin down overnight culture in sterile 50ml Falcon tube at 7000rpm for 20 minutes at 40C.
 2. Transfer supernatant (contains phage) to a new sterile 50ml Falcon tube. 
