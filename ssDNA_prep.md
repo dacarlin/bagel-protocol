@@ -2,10 +2,6 @@
 
 ## Day 0: Production of ssDNA
 
-Materials | Concentration | Amount/ reaction
---------- | ------------- | ----------------
-plasmid   |     n/a       |       n/a       
-
 ### Materials 
 
 + chem competent CJ236 cells 
