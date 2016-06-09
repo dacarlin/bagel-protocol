@@ -1,12 +1,14 @@
-# Single-stranded DNA prep for Bagel project 
+# Production and isolation of BglB ssDNA 
 
-## Day 0: Production of ssDNA
+## Day 1
 
-### Materials 
+Transformation of pET29b-BglB into E. coli K12 CJ236 **FΔ(HindIII)::cat (Tra+ Pil+ CamR)/ ung-1 relA1 dut-1 thi-1 spoT1 mcrA**
+
+### Consumable materials 
 
 + chem competent CJ236 cells 
 + WT BglB plasmid 
-+ selection plate containing kanamycin and chloramphenicol 
++ selection plate containing 1X kanamycin and 1X chloramphenicol 
 + 15 mL round-bottom Falcon tube 
 
 ### Mise en place 
@@ -19,34 +21,34 @@
 
 ### Instructions
 
-1. Transform plasmid into chemically competent CJ236 cells (initial stock is free from NEB, make your own from there.  Any standard chem comp method will work).
-  * Plate onto a Chlor+YOUR ANTIBIOTIC plate and incubate overnight at 37.0 deg C.
-
+1. Transform as in `production.md` 
+2. Make media for Day 2: autoclave 2, 250 mL flask with 50 mL TB 
+3. Plate and incubate overnight at 37 C 
 
 ## Day 1: ssDNA Production (growth, virus inoculation, and overnight) 
 
-Materials | Concentration | Amount/ reaction
---------- | ------------- | ----------------
-LB + YOUR antibiotic  |     n/a       |       3 mL
-M13K07    |     n/a       |       3uL
+### Consumable materials 
 
++ M13 phage (NEB) 
++ media made yesterday, 2, 250 mL flask with 50 mL TB
++ 2, 15 mL round-bottom tubes 
 
 ### Mise en place 
 
 + waste bucket
-+ P1000 and tips, P20 and tips
-+ sirological pipet aspirator
-+ 50mL sirological pipet
-+ 250mL Erlenmeyer Flask
++ P20 and tips
++ serological pipet aspirator
++ 50 mL serological pipet
 
 ### Instructions
-1. Inoculate 6 colonies into 3ml of LB + YOUR antibiotic. (NO chlor here per NEB instructions)
-2. Grow for 4-6 hours at 370C, shaking at 200rpm (until cloudy=turbid).
-3. Add 3ul of M13K07 helper phage.
-4. Continue growing for 1 hour at 370C, shaking at 200rpm.
-5. Expand culture by diluting 1ml into 50ml of LB + antibiotic in 250ml flask.
-6. Grow overnight at 370C, shaking at 200rpm.
 
+1. Dispense 3 mL into each tube 
+1. Scrape 6 colonies into each tube 
+2. Grow for 4-6 hours at 37 C with shaking until cloudy
+3. Add 3 µL of M13K07 phage
+4. Continue growing for 1 hour at 37 C with shaking 
+5. Expand culture by diluting 1 mL from the tubes into the media in the flasks
+6. Grow overnight at 37 C with shaking 
 
 ## Day 2: Harvesting ssDNA 
 
@@ -89,30 +91,28 @@ ddiH2O    |     n/a       |       18 ul
 14. Transfer the supernatant (phage) to a new microfuge tube.
 15. Harvesting ssDNA from Phage using Qiagen Qiaprep M13 kit (#27704)
     * DO NOT SPIN OVER 8000rpm when using this kit!
-    * Final solution should be greater than 20ng/uL.  If not try again; ssDNA can randomly fail so often it is best to make 2 batches in parallel (works as a nice counter balance as well).
+  
+### Evaluation, tips, and tricks 
 
+If A260 implies DNA concentration is below 20 ng/µL the procedure likely didn't work. 
 
+Run a gel to make sure you can see a clear band. The pET29-BglB construct is ~6700 bp. Single-stranded DNA runs about 10% faster on a gel than supercoiled double-stranded DNA. 
 
 ## Recipes
 
-### 20%PEG/2.5M NaCl
+### salt PEG (20% PEG/2.5M NaCl, 1 L) 
 
 + 200g PEG (polyethylene glycol) 8000MW
 + 141.6g NaCl
 + Add dH20 to 1L
 + Autoclave with a stir bar, stir immediately after autoclaving until cool, and store at 40C.
 
+### phosphate-buffered saline (PBS, 1 L) 
 
-### 1xPhosphate Buffered Saline (PBS)
-
-+ 800ml dH20
++ 800 mL water
 + 8g NaCl
 + 0.2g KCl
-+ 1.44g Na2HPO4
-+ 0.24g KH2PO4
++ 1.44g Na2HPO4 sodium phosphate 
++ 0.24g KH2PO4 potassium phosphate 
 + Adjust pH to 7.4
-+ Add dH2O to 1L
-+ Autoclave
-
-
-
++ Add water to 1 L
