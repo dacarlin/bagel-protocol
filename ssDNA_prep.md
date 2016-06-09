@@ -53,21 +53,22 @@ ssDNA Production (growth, virus inoculation, and overnight)
 
 ## Day 3
 
-Harvesting ssDNA and evaluation of the procedure. 
+Harvesting ssDNA and evaluation of the procedure
 
 > The phage particles produced in a 50 ml overnight culture of JM109/pGEM5Z(+)-EGFP/M13KO7 complex were recovered from the supernatant by the classical PEG precipitation procedure [6] and lysed in 2 ml of a disruption buffer (5 M Guanidinium Hydrochloride, 1% Triton X-100, and 10 mM MOPS, pH 6.5) with a short incubation of 5 min at room temperature. A silica column (Tiangen Biotech Co., LTD, Beijing, China) with a maximum DNA adsorption quantity of 500 μg was placed inside a 50-ml Falcon tube. The cell lysate was poured into the column, which was then centrifuge at 10,000g for 2 min. The flow-through solution was discarded and the column was washed twice with 5 ml of 80% isopropanol and centrifugation at 10,000g for 2 min. The column was then transferred to a new Falcon tube and incubated with 1 ml of sterile TE buffer for 2–3 min to elute the bound DNA. The eluted DNA in the TE buffer was collected by centrifugation at 10,000g for 2 min. The 50 ml culture usually yielded a total 150–200 μg ssDNA
 
-Materials | Concentration | Amount/ reaction
---------- | ------------- | ----------------
-salt PEG   |    20% w/v PEG-8000, 2.5 M NaCl    | ~some
-PBS      |     1X       |       some
+Amount | Material
+-------|---------------------------------------
+2      | 50 mL Falcon tube
+2      | 2 mL microcentrifuge tube
 
 ### Mise en place 
 
-+ 2, 50 mL Falcon tubes
-+ 2, 2 mL tubes
++ software 
++ waste bucket 
 + serological pipet aspirator 
 + P20, P200, P1000 and tips 
++ hardware 
 
 ### Instructions
 
