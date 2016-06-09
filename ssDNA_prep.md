@@ -59,21 +59,15 @@ Harvesting ssDNA and evaluation of the procedure.
 
 Materials | Concentration | Amount/ reaction
 --------- | ------------- | ----------------
-20% PEG   |     2.5 M      |       10 ml
-1xPBS      |     n/a       |       2 ml (1st resuspension)
-1xPBS     |     n/a       |       1 ml (2nd resuspension)
-PEG/NaCl  |   n/a         |       2 ml
-PNK Buffer  |     n/a     |       3 ul
-ATP       |     10mM      |       1 ul
-T4 Polynucleotide Kinase  |       n/a     |     1 ul
-ddiH2O    |     n/a       |       18 ul
+salt PEG   |    20% w/v PEG-8000, 2.5 M NaCl    | ~some
+PBS      |     1X       |       some
 
 ### Mise en place 
 
-+ 50 ml Falcon tubes (x2)
-+ Microfuge tubes
-+ Pipette
-+ PCR strip tubes or 96well PCR Plate
++ 2, 50 mL Falcon tubes
++ 2, 2 mL tubes
++ serological pipet aspirator 
++ P20, P200, P1000 and tips 
 
 ### Instructions
 
