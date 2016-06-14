@@ -7,8 +7,12 @@ The characterization of point mutants of β-glucosidase B from *P. polymxa* ("Ba
 The following protocols are used in our lab: 
 
 + `production.md` contains the instructions for production of protein beginning from purified plasmid 
-+ `kinetics.md` contains instructions for determining Michaelis-Menten parameters from a convenient plate assay 
-+ `thermostability.md` contains instructions for an assay to determine an enzyme's thermal denaturation temperature
++ `kinetics.md` contains instructions for determining Michaelis-Menten parameters from a convenient plate assay (also see [data analysis tools](bagel-fitter) 
++ `thermostability.md` contains instructions for an assay to determine an enzyme's melting temperature
 + `recipes.md` contains recipes for stock solutions used in the above three protocols 
 
 These recipes are robust enough to allow those new to enzyme engineering (and indeed, those new to lab work) to produce high-quality, consistent results. Along with [data analysis tools](http://github.com/dacarlin/bagel-fitter/) for determining Michaelis-Menten parameters from experimental data, this repository provides a basis for any lab to get started with enzyme design. 
+
+Also included:
+
++ `ssDNA_prep.md` for preparation of single-stranded DNA template 
