@@ -1,4 +1,4 @@
-# Production and isolation of BglB ssDNA 
+# Production and isolation of BglB ssDNA
 
 Adapted from the procedure in [Zhou 2009](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2692612/)
 
@@ -6,35 +6,35 @@ Adapted from the procedure in [Zhou 2009](http://www.ncbi.nlm.nih.gov/pmc/articl
 
 Transformation of pET29b-BglB into E. coli K12 CJ236 *FΔ(HindIII)::cat (Tra+ Pil+ CamR)/ ung-1 relA1 dut-1 thi-1 spoT1 mcrA*
 
-### Consumable materials 
+### Consumable materials
 
-+ chem competent CJ236 cells 
-+ WT BglB plasmid 
-+ selection plate containing 1X kanamycin and 1X chloramphenicol 
-+ 15 mL round-bottom Falcon tube 
++ chem competent CJ236 cells
++ WT BglB plasmid
++ selection plate containing 1X kanamycin and 1X chloramphenicol
++ 15 mL round-bottom Falcon tube
 
-### Mise en place 
+### Mise en place
 
-+ waste bucket 
-+ P200, P1000 and tips 
++ waste bucket
++ P200, P1000 and tips
 
 ### Instructions
 
-1. Transform as in `production.md` 
-2. Make media for Day 2: autoclave 2, 250 mL flask with 50 mL TB 
-3. Plate and incubate overnight at 37 C 
+1. Transform as in `production.md`
+2. Make media for Day 2: autoclave 2, 250 mL flask with 50 mL TB
+3. Plate and incubate overnight at 37 C
 
 ## Day 2
 
-ssDNA Production (growth, virus inoculation, and overnight) 
+ssDNA Production (growth, virus inoculation, and overnight)
 
-### Consumable materials 
+### Consumable materials
 
-+ M13 phage (NEB) 
++ M13 phage (NEB)
 + media made yesterday, 2, 250 mL flask with 50 mL TB
-+ 2, 15 mL round-bottom tubes 
++ 2, 15 mL round-bottom tubes
 
-### Mise en place 
+### Mise en place
 
 + waste bucket
 + P20 and tips
@@ -43,13 +43,13 @@ ssDNA Production (growth, virus inoculation, and overnight)
 
 ### Instructions
 
-1. Dispense 3 mL into each tube 
-1. Scrape 6 colonies into each tube 
+1. Dispense 3 mL into each tube
+1. Scrape 6 colonies into each tube
 2. Grow for 4-6 hours at 37 C with shaking until cloudy
 3. Add 3 µL of M13K07 phage
-4. Continue growing for 1 hour at 37 C with shaking 
+4. Continue growing for 1 hour at 37 C with shaking
 5. Expand culture by diluting 1 mL from the tubes into the media in the flasks
-6. Grow overnight at 37 C with shaking 
+6. Grow overnight at 37 C with shaking
 
 ## Day 3
 
@@ -62,63 +62,63 @@ Amount | Material
 2      | 50 mL Falcon tube
 2      | 2 mL microcentrifuge tube
 
-### Mise en place 
+### Mise en place
 
-+ software 
-+ waste bucket 
-+ serological pipet aspirator 
-+ P20, P200, P1000 and tips 
-+ hardware 
++ software
++ waste bucket
++ serological pipet aspirator
++ P20, P200, P1000 and tips
++ hardware
 
 ### Instructions
 
-All centrifugation steps at 4 C 
+All centrifugation steps at 4 C
 
 1. Spin down overnight culture in 50 mL tube at 4700 RPM for 20 min
-2. Aliquot 10 mL salt PEG to fresh 50 mL tubes 
-2. Transfer supernatant (contains phage) to fresh tubes 
+2. Aliquot 10 mL salt PEG to fresh 50 mL tubes
+2. Transfer supernatant (contains phage) to fresh tubes
 3. Vortex and incubate on ice for 45 min
 4. Spin down the phage at 4700 RPM for 45 min
 5. Decant liquid and let tube stand upright to drain off the rest of the liquid
-6. Resuspend the pellet in 2 mL PBS by vortexting or pipeting 
+6. Resuspend the pellet in 2 mL PBS by vortexting or pipeting
 7. Spin at 14,000 RPM for 5 min
-8. Transfer the supernatant to new microfuge tubes with 300 µL salt PEG 
+8. Transfer the supernatant to new microfuge tubes with 300 µL salt PEG
 9. Vortex and incubate at room temperature for 10 min
 10. Spin down phage at 14,000 RPM for 2 min
 11. Pipet supernatant off pellet
 12. Do a second quick spin to collect residual liquid and pipet it off
-12. Resuspend the pellet (phage) in 1 mL PBS 
-13. Spin down at 14,000 RPM for 5 min 
+12. Resuspend the pellet (phage) in 1 mL PBS
+13. Spin down at 14,000 RPM for 5 min
 14. Set centrifuge to 8,000 RPM  
 14. Transfer the supernatant (phage) to a new microfuge tube
 15. Purify using Qiagen M13 kit, **do not spin over 8,000 RPM**
-  
-### Evaluation, tips, and tricks 
 
-If A260 implies DNA concentration is below 20 ng/µL the procedure likely didn't work. Run a gel to be sure, or just try again. 
+### Evaluation, tips, and tricks
 
-Run a gel to make sure you can see a clear band. The pET29-BglB construct is ~6700 bp. Single-stranded DNA runs about 10% faster on a gel than supercoiled double-stranded DNA. 
+If A260 implies DNA concentration is below 20 ng/µL the procedure likely didn't work. Run a gel to be sure, or just try again.
+
+Run a gel to make sure you can see a clear band. The pET29-BglB construct is ~6700 bp. Single-stranded DNA runs about 10% faster on a gel than supercoiled double-stranded DNA.
 
 ## Recipes
 
-### salt PEG (20% PEG/2.5M NaCl, 1 L) 
+### salt PEG (20% PEG/2.5M NaCl, 1 L)
 
 + 200g PEG (polyethylene glycol) 8000MW
 + 141.6g NaCl
 + Add dH20 to 1L
 + Autoclave with a stir bar, stir immediately after autoclaving until cool, and store at 40C.
 
-### phosphate-buffered saline (PBS, 1 L) 
+### phosphate-buffered saline (PBS, 1 L)
 
 + 800 mL water
 + 8g NaCl
 + 0.2g KCl
-+ 1.44g Na2HPO4 sodium phosphate 
-+ 0.24g KH2PO4 potassium phosphate 
++ 1.44g Na2HPO4 sodium phosphate
++ 0.24g KH2PO4 potassium phosphate
 + Adjust pH to 7.4
 + Add water to 1 L
 
-### disruption buffer 
+### disruption buffer
 
 + 5 M Guanidinium Hydrochloride
 + 1% Triton X-100
