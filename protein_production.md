@@ -46,7 +46,7 @@ In this step, you will transform the plasmids encoding your mutant genes into *E
 
 Material | Concentration  | Amount per reaction
 ---------|----------------|--------------------
-Chemically-competent *Escherichia coli* BL21(DE3) | | 30 μL 
+Chemically-competent *Escherichia coli* BL21(DE3) | | 25 μL 
 Mutant plasmid solution | > 20 ng/μL | 1 μL
 Terrific broth (TB) | | 200 μL
 LB agar plates with kanamycin | | 1
@@ -66,8 +66,10 @@ Sterile glass beads | | 8–10
 
 ### Instructions 
 
-1. Set round-bottom tubes on ice, one per mutant
-2. When the tubes are ice cold, add plasmid and competent cells and incubate on ice for at least 10 minutes (20 min is better) 
+1. Dispense 1 µL aliquots of your mutant plasmid into the round-bottom tubes 
+1. Set round-bottom tubes on ice and incubate on ice for 5 minutes 
+2. While the tubes are chilling, get competent cells from freezer and set on ice
+2. When the tubes are ice cold, add competent cells and incubate on ice for 15 minutes  
 3. Heat shock at 42 C for 90 seconds 
 4. Incubate on ice for 90 seconds 
 5. Add 200 µL Terrific Broth and recover with shaking at 37 C for 1 hour 
@@ -80,6 +82,7 @@ Sterile glass beads | | 8–10
 ### Tips and tricks 
 
 + Chemical competent cells should be kept on ice at all times and never warmed
++ Bring the ice bucket to the freezer 
 + Program the thermocycler to perform steps 1-5
 + Some tips for [troubleshooting transformations from New England Biolabs](https://www.neb.com/tools-and-resources/usage-guidelines/chemical-transformation-tips) 
 + If you are getting poor transformation efficiency, try recovering with 400 µL of media for 2 hours at 37 C
