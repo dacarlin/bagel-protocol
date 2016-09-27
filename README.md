@@ -13,13 +13,13 @@ The following protocols are used in our lab:
 
 The entire pipeline:
 
-+ deep prep from `recipes.md`
++ deep prep from `stock_recipes.md`
 + `ssDNA_prep.md` for preparation of single-stranded DNA template
-+ [automated Kunkel mutagenesis on Transcriptic](bagel-robot)
++ [automated Kunkel mutagenesis on Transcriptic](TSKunkel)
 + `protein_production.md`
 + `gel_and_yields.md` (and, if necessary, production again)
 + `kinetic_assay.md` and `thermal_stability_assay.md`
-+ [data analysis](bagel-fitter) using the [fitter]()
++ [data analysis](bagel.genomecenter.ucdavis.edu) using the [fitter](bagel-fitter)
 
 The outputs for each protein are the soluble expression (yes/no), quantitative protein yield by A280 (in units of mg/mL), and the Michaelis-Menten constants *k*<sub>cat</sub> and K<sub>M</sub>.
 

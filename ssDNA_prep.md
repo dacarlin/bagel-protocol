@@ -95,26 +95,26 @@ All centrifugation steps at 4 C
 
 ### Evaluation, tips, and tricks
 
-If A260 implies DNA concentration is below 20 ng/µL the procedure likely didn't work. Run a gel to be sure, or just try again.
+Run a 1% agarose gel of the product to evaluate the prep. Run an empty lane, your ssDNA lane, and a miniprepped plasmid lane. The pET29-BglB construct is ~6700 bp. Usually, we say that ssDNA runs about 75% of the speed of dsDNA in a 1% agarose gel. You will likely see both double-stranded plasmid DNA and phage-packaged single stranded DNA in your prep. It still works.
 
-Run a gel to make sure you can see a clear band. The pET29-BglB construct is ~6700 bp. Single-stranded DNA runs about 10% faster on a gel than supercoiled double-stranded DNA.
+If A260 implies DNA concentration is below 20 ng/µL the procedure likely didn't work. Run a gel to be sure, or just try again.
 
 ## Recipes
 
 ### salt PEG (20% PEG/2.5M NaCl, 1 L)
 
-+ 200g PEG (polyethylene glycol) 8000MW
-+ 141.6g NaCl
-+ Add dH20 to 1L
-+ Autoclave with a stir bar, stir immediately after autoclaving until cool, and store at 40C.
++ 200 g PEG-8000 (polyethylene glycol, molecular weight 8000)
++ 141.6 g NaCl
++ Add water to 1 L
++ Autoclave with a stir bar, stir immediately after autoclaving until cool, and store at 40 C.
 
 ### phosphate-buffered saline (PBS, 1 L)
 
 + 800 mL water
-+ 8g NaCl
-+ 0.2g KCl
-+ 1.44g Na2HPO4 sodium phosphate
-+ 0.24g KH2PO4 potassium phosphate
++ 8 g NaCl
++ 0.2 g KCl
++ 1.44 g Na2HPO4 sodium phosphate
++ 0.24 g KH2PO4 potassium phosphate
 + Adjust pH to 7.4
 + Add water to 1 L
 
