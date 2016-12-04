@@ -2,7 +2,7 @@
 
 This assay assumes that you have followed the protein production and purification steps in `production.md` in this repository.
 
-## Mise en place
+## _Mise en place_
 
 + waste bucket
 + pipet reservoir basin
@@ -60,25 +60,23 @@ Now that you have created the gradient of substrate concentrations in the PCR pl
 
 1. For each mutant, aliquot 25 µL of **diluted** purified protein into three columns of the plate (24 wells)
 
-### Initiate assay and collect data
+### Initiate assay
 
 To initiate the assay, transfer 75 µL from each well in the substrate plate into the assay plate containing your aliquotted protein. Before you begin the instructions below, set the plate reader to monitor absorbance at 420 nm every minute for 60 minutes.
 
 1.  Using the multichannel pipet, transfer 75 µL from the bottom row of the substrate plate into the bottom row of the assay plate
 2.  Repeat for the rest of the rows (bottom up)
 3.  Place the plate on the prepared plate reader and press Enter (run time: 1 hour)
-4.  **Important**: fill out the "Information" panel (on the Gen5) with your name, the mutants you are testing, and the dilutions that you used. For example:
 
-> Alex Carlin. Cols 1-3: WT @ 100X, cols 4-6: E164A @ 10X, 7-9: I300L @ 100X, cols 10-12: E353A @ 10X
+### Record your data
 
-**Advice:** While the assay is running is a good time to check to make sure you have entered your finished production data into your report.
+4.  Fill out the "Information" panel for the plate in the Gen5 software with your name, the mutants you are testing, and the dilutions that you used. Use this format:
+
+> Alex. Cols 1-3: WT @ 100X, cols 4-6: E164A @ 10X, 7-9: I300L @ 100X, cols 10-12: E353A @ 10X
 
 ### Data analysis
 
-2. Once the assay has finished, remove your plate and examine your data. **Note**: make sure that the Gen5 is set to calculate rates ("MaxV [420]") based on at least 10 points, and that the rates are reported in units of OD/min. These settings can be found under "Data Reduction > Calculation Options"
-3. Visually check and assess R-squared values for the 96 rates on your plate. R-squared values closer to 1 are better. Mask points as necessary to compensate for detector limit (it can't read above OD 3.75)
-4. Use the [Bagel Team Data Tool](http://bagel.genomecenter.ucdavis.edu) to fit your observed rates to the Michaelis-Menten equation
-5. The web app will return functional parameters for your mutants
-6. Visually check the fits and reported errors (should be less than 50% error, but this is not the only criterion you can use to determine if a fit is good)
-7. Enter your production data on the production sheet of the report
-8. Enter your assay data on the assay sheet of the report
+2. Once the assay has finished, remove your plate and examine your data. **Note**: make sure that the Gen5 is set to calculate rates based on at least 10 points, and that the rates are reported in units of OD/min. These settings can be found under "Data Reduction > Calculation Options"
+3. Visually check and assess R-squared values for the 96 individual rates calculated in the assay. There is one per well. R-squared values closer to 1 are better. Mask points as necessary to compensate for detector limit (it can't read above OD 3.75) as well as correct erroneous rates resulting from detector noise (such as pNP formation rates that are negative)
+4. Use the [web app for fitting your data to the Michelis-Menten model of enzyme kinetics](http://bagel.genomecenter.ucdavis.edu). Instructions for interpreting assay data can be found in the file `data_reporting_guidelines.md`
+8. Enter the assay data in the `kinetic_data` sheet of the report
