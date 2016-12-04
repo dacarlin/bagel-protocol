@@ -1,6 +1,8 @@
-# Bagel Team Guide to Reporting Data
+# Data reporting guidelines
 
-After you have completed production, purification, kinetic assay, and thermal denaturation assay on your batch of mutants, here's how to collect all the data into a report.
+After you have completed production, purification, kinetic assay, and thermal denaturation assay on your batch of mutants, you have a lot of data for each mutant.
+
+Here's how to interpret the data and write a short scientific report describing your findings. An example report can be found in `example_report.md`.  
 
 For each mutant, the following things should be included. Each item has a one-word name, a brief description including a unit of measurement (if necessary), and an example of use. Sometimes there is more than one example.  
 
@@ -160,4 +162,4 @@ Data for this mutant is complete. Is the data for this mutant 100% correct and c
 
 ## Why are all the names lowercased single words with underscores instead of spaces?
 
-The names are formatted this way to make nicely-named header columns in a pandas DataFrame. 
+The names are formatted this way to make nicely-named header columns in a pandas DataFrame.
