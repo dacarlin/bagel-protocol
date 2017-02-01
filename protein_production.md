@@ -10,59 +10,36 @@ Before beginning, make sure you have the following ready and standing by:
 + 37 C standing, 37 C shaking, and 18 C shaking incubators
 + centrifuges for 50 mL Falcon tubes (up to 4,700 RPM) and 2 mL tubes (up to 14,700 RPM) 
 
-## Day 0: Automated Kunkel mutagenesis 
+## Mise en place
 
-After you have designed your set of mutants, an automated Kunkel mutagenesis procedure will be carried out on [Transcriptic](https://www.transcriptic.com/)'s workcell. The wild type Bagel plasmid is mutated to your designed sequence using the procedure that's described in [Thomas Kunkel's original procedure](http://www.pnas.org/content/82/2/488.full.pdf) and in [our group's manual Kunkel protocol](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE). If you're interested, the [Python code that automates the Kunkel procedure and algorithmicly evaluates sequence verification](https://github.com/dacarlin/bagel-orders) is together but still a little messy (could use a second set of eyes on it).
+*Mise en place* is a French culinary phrase which means "put in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place)). 
 
-After your mutant plasmids have been Kunkel'd and sequenced, you'll get them in the mail ready for Day 1.
+## Day 0: Kunkel mutagenesis 
 
-### When you get your mutants 
-
-**Note**: Everybody's mutants arrive together in a 96-well plate along with a CSV file that tells you where each mutant is on the plate. 
-
-Material | Concentration  | Amount per reaction
----------|----------------|--------------------
-2 mL tube | | 1
-tube label | | 1
-
-#### Mise en place
-
-*Mise en place* is a French culinary phrase which means "putting in place", as in "set up". It is used in professional kitchens to refer to organizing and arranging the ingredients that a cook will require for the items that are to be prepared during a shift ([Wikipedia](https://en.wikipedia.org/wiki/Mise_en_place)). 
-
-+ waste bucket 
-+ P200 and tips
-
-#### Instructions 
-
-1. Find your mutant in the CSV file (make sure to verifiy the plate barcode matches the sheet)
-2. Write the mutant name on a ToughTag tube label and affix to a 2 mL tube 
-2. Once you know which well your mutant is in, pipet the entire volume of that well into the tube
-3. Reseal the plate and store at -20 C
-3. Store your mutants at -20 C in the "Bagel" box or go immediately to Day 1
+After we have designed our set of mutants, we mutate the wild type Bagel plasmid to your designed sequence using [Thomas Kunkel's original procedure](http://www.pnas.org/content/82/2/488.full.pdf) or [our group's manual Kunkel protocol](https://docs.google.com/a/ucdavis.edu/folderview?usp=sharing&id=0B3zIXvOOrmpqcEM5WWRadThsVUE). If you're interested, historically orders were carried out on Transcriptic's cloud lab platform (see [Python code that automates the Kunkel procedure and algorithmicly evaluates sequence verification](https://github.com/dacarlin/bagel-orders)). 
 
 ## Day 1: Transformation 
 
-In this step, you will transform the plasmids encoding your mutant genes into *Escherichia coli BL21(DE3)*. Transformation is the process of physically shocking the bacteria to induce them to take up foreign DNA from the environment. Today, you will heat shock the *E. coli* to induce the uptake of the plasmid encoding the mutant you designed. 
+In this step, you will transform the plasmids encoding your mutant genes into *Escherichia coli BLR(DE3)*. Transformation is the process of physically shocking the bacteria to induce them to take up foreign DNA from the environment. Today, you will heat shock the *E. coli* to induce the uptake of the plasmid encoding the mutant you designed. 
 
 Material | Concentration  | Amount per reaction
 ---------|----------------|--------------------
 Chemically-competent *Escherichia coli* BL21(DE3) | | 25 μL 
 Mutant plasmid solution | > 20 ng/μL | 1 μL
 Terrific broth (TB) | | 200 μL
-LB agar plates with kanamycin | | 1
+LB agar plates with 50 µg/µL kanamycin | | 1
 Sterile glass beads | | 8–10 
 15 mL round-bottom culture tube | | 1
 
 ### Mise en place
 
 + waste bucket 
-+ P2 and tips, P200 and tips
-+ Ice in ice bucket
-+ Pre-warmed 42 C dry bath 
-
-### Hardware
-
-+ 37 C incubator
++ rack for 15 mL tubes 
++ P2 and tips,
++ P200 and tips
++ ice in ice bucket
++ pre-warmed dry bath (42 ˚C) 
++ agar plates 
 
 ### Instructions 
 
@@ -85,7 +62,7 @@ Sterile glass beads | | 8–10
 + Bring the ice bucket to the freezer 
 + Program the thermocycler to perform steps 1-5
 + Some tips for [troubleshooting transformations from New England Biolabs](https://www.neb.com/tools-and-resources/usage-guidelines/chemical-transformation-tips) 
-+ If you are getting poor transformation efficiency, try recovering with 400 µL of media for 2 hours at 37 C
++ If you are getting poor transformation efficiency, try recovering with 400 µL of media for 2 hours at 37 ˚C
 
 ## Day 2: Growth 
 
@@ -114,27 +91,28 @@ Tube seal | 1
 2. Add kanamycin solution to Terrific Broth to make a batch of growth media for all of your mutants. Make enough for one extra culture
 3. Aliquot 5 mL growth media to each 50 mL Falcon tube 
 1. Using a pipet, carefully scrape a single colony from the plate and dip in the growth media in the Falcon tube, and pipet up and down a few times to inoculate the culture 
-5. Seal the cultures with tube seals (if needed, cut them into small squares first) 
-6. Incubate with shaking at 37 C for 24 hours
+5. Seal the cultures with tube seals (cut into small squares first) 
+6. Incubate with shaking at 37 ˚C for 24 hours
 
-### Tips and tricks 
+### Advice  
 
-+ If you have a lot of colonies, divide the plate into quadrants, count one quadrant, and multiply the resultant number by 4 to estimate how many colonies you got
++ If you have a lot of colonies, divide the plate into quadrants, count one quadrant, and multiply the result by 4 to estimate the number of colonies 
 
 
 ## Day 3: Expression cultures 
 
-In this step, you will exchange the spent growth media in your cultures with fresh growth media supplemented with [isopropyl β-D-1-thiogalactopyranoside](https://en.wikipedia.org/wiki/Isopropyl_β-D-1-thiogalactopyranoside) (IPTG). IPTG induces expression of your target protein. [Molecular details of how the expression system works](http://www.genomics.agilent.com/article.jsp%3FpageId%3D472). 
+In this step, you will exchange the spent growth media in your cultures with fresh growth media supplemented with [isopropyl β-D-1-thiogalactopyranoside](https://en.wikipedia.org/wiki/Isopropyl_β-D-1-thiogalactopyranoside) (IPTG). IPTG induces expression of your target protein using the engineered [pET expression system](http://www.genomics.agilent.com/article.jsp%3FpageId%3D472). 
 
-Material | Amount per reaction
----------|---
-Growth cultures from day 2 | 1
-Terrific Broth | 5 mL
-IPTG solution | 5 μL
-Kanamycin solution | 5 μL
-Tube seal | 1
+Material                      | Amount per reaction
+------------------------------|---
+growth cultures from day 2    | 1
+Terrific Broth                | 5 mL
+1000x IPTG solution           | 5 μL
+1000x kanamycin solution      | 5 μL
+tube seal                     | 1
 
-_Minirecipe_: 5 mL induction medium = 5 mL Terrific Broth + 5 µL kanamycin solution + 5 µL IPTG solution
+_Minirecipe_ (for 1 sample): 5 mL induction medium = 5 mL Terrific Broth + 5 µL kanamycin solution + 5 µL IPTG solution
+_Minirecipe_ (for 4 samples) : 25 mL induction medium = 25 mL Terrific Broth + 25 µL kanamycin solution + 25 µL IPTG solution
 
 ### *Mise en place*
 
@@ -142,11 +120,6 @@ _Minirecipe_: 5 mL induction medium = 5 mL Terrific Broth + 5 µL kanamycin solu
 + vortexer
 + P20 and tips
 + serological pipet and tips
-
-### Hardware 
-
-+ centrifuge
-+ shaking incubator at 37 C 
 
 ### Instructions
 
@@ -162,6 +135,7 @@ _Minirecipe_: 5 mL induction medium = 5 mL Terrific Broth + 5 µL kanamycin solu
 
 ### Tips for today 
 
++ The more you observe sterile technique, the better the cultures will grow 
 + **Challenge**: Devise a clever way to simplify resuspension so that a robot could do it
 
 ## Day 4: Protein purification 
@@ -193,28 +167,31 @@ Ni-NTA resin slurry | 100 μL
 
 ## Method 
 
-_Minirecipe:_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix. Make enough for n+2 cultures
+_Minirecipe (for 1 sample):_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10X BugBuster + 1 mg dry lysis mix
+
+_Minirecipe (for 4 samples):_ 2000 uL lysis buffer = 1800 uL wash buffer + 200 uL 10X BugBuster + 5 mg dry lysis mix
 
 ### Purification 
 
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
 2. While they are spinning, make lysis buffer and set on rocker
-3. Useal culture and pour away supernatant 
-4. Weigh your expression pellet and record the weight on the report sheet
+3. Unseal culture and pour away supernatant 
+4. Weigh your expression pellet and record the pellet weight
 4. Add 500 uL wash buffer to pellet and vortex to resuspend (should have about 1 mL in there) 
 5. Aliquot the resuspended pellets to fresh 2 mL tubes 
 1. Aliquot 500 µL lysis buffer into resuspended pellets in 2 mL tubes
-1. Rock tubes for 30 minutes at room temperature 
-1. Centrifuge at 14,700 RPM for 30 minutes to clarify the lysate 
+1. Rock tubes for 30 minutes at room temperature to lyse cells 
+1. Centrifuge at 14,700 RPM for 30-60 minutes to clarify the lysate 
 1. While centrifuging, prep your microcolumns. Set cleaned microcolumns (if necessary, rinse with water) in rack over waste collector 
-1. Add 100 µL Ni-NTA resin slurry to each microcolumn
+1. Add 100 µL Ni-NTA resin slurry to bed of each microcolumn
 1. Add 500 µL wash buffer and allow to drip through
 1. Once the lysed cultures have finished spinning, add 500 µL of clarified supernatant and allow to drip through 
 1. Add another 500 µL of supernatant and allow to drip through  
 1. Wash six times with 500 µL of wash buffer, allow to drip through each time
 1. Once all unwanted proteins have been washed away, transfer column to fresh tube
-1. Add 150 µL protein buffer directly to beads and incubate at room temperature for five minutes 
+1. Add 150 µL protein buffer directly to beads and incubate at room temperature for 1 minute 
 1. Add second 150 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
-1. Wash out the columns
-2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in an assay. 
-3. Purified protein can be stored at 4 C for up to 48 hours  
+3. Remove column from tube. Tube contains purified protein solution
+1. Wash out the columns with DI water 
+2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in both kinetic and thermal stability assays
+
