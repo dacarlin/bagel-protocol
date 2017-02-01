@@ -171,7 +171,7 @@ _Minirecipe (for 1 sample):_ 500 uL lysis buffer = 450 uL wash buffer + 50 uL 10
 
 _Minirecipe (for 4 samples):_ 2000 uL lysis buffer = 1800 uL wash buffer + 200 uL 10X BugBuster + 5 mg dry lysis mix
 
-### Purification 
+### Cell lysis and clarification  
 
 1. Centrifuge expression cultures at 4,700 RPM for 10 minutes
 2. While they are spinning, make lysis buffer and set on rocker
@@ -182,7 +182,11 @@ _Minirecipe (for 4 samples):_ 2000 uL lysis buffer = 1800 uL wash buffer + 200 u
 1. Aliquot 500 µL lysis buffer into resuspended pellets in 2 mL tubes
 1. Rock tubes for 30 minutes at room temperature to lyse cells 
 1. Centrifuge at 14,700 RPM for 30-60 minutes to clarify the lysate 
-1. While centrifuging, prep your microcolumns. Set cleaned microcolumns (if necessary, rinse with water) in rack over waste collector 
+
+### Purification by immobilized metal ion chromatography 
+
+While centrifuging, prep your microcolums. If necessary, rinse with water. Set cleaned microcolumns in rack over waste collector before you begin purification. 
+
 1. Add 100 µL Ni-NTA resin slurry to bed of each microcolumn
 1. Add 500 µL wash buffer and allow to drip through
 1. Once the lysed cultures have finished spinning, add 500 µL of clarified supernatant and allow to drip through 
@@ -193,5 +197,11 @@ _Minirecipe (for 4 samples):_ 2000 uL lysis buffer = 1800 uL wash buffer + 200 u
 1. Add second 150 µL protein buffer and pulse in the centrifuge a couple of times to ensure you get all the liquid
 3. Remove column from tube. Tube contains purified protein solution
 1. Wash out the columns with DI water 
-2. Your purified protein is ready to quantitate by absorbance at 280, run on a gel, and use in both kinetic and thermal stability assays
+
+### Next steps 
+
+1. [quantitate by absorbance at 280](./gel_and_yields.md)
+2. [SDS-PAGE analysis for purity](./gel_and_yields.md) 
+3. [assay for kinetic (Michaelis-Menten) parameters](./kinetic_assay.md) 
+4. [assay for thermal stability](./thermal_stability_assay.md)
 
