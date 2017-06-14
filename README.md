@@ -25,6 +25,6 @@ The outputs for each protein are the soluble expression (yes/no), quantitative p
 
 Data for the native BglB sequence:
 
-| Protein yield (mg/mL) | Expression (1=yes, 0=no) | *k*<sub>cat</sub> (1/min) | Percent error, *k*<sub>cat</sub> |K<sub>M</sub> (mM) | Percent error, K<sub>M</sub> | T<sub>m</sub> (C)
+| Protein yield (mg/mL) | Expresses | *k*<sub>cat</sub> (1/min) | Percent error, *k*<sub>cat</sub> |K<sub>M</sub> (mM) | Percent error, K<sub>M</sub> | T<sub>m</sub> (C)
 |---|---|------|-----|------|-------|--------
-|1.13|1|895.6|2.1|4.79|9.8|39.6
+|1.13|Yes|895.6|2.1|4.79|9.8|39.6
