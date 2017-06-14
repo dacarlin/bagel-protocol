@@ -1,20 +1,28 @@
-# Bagel Team Guide to Reporting Data
+# Bagel Project Guide to Reporting Data
 
 After you have completed production, purification, kinetic assay, and thermal denaturation assay on your batch of mutants, here's how to collect all the data into a report.
 
-For each mutant, the following things should be included. Each item has a one-word name, a brief description including a unit of measurement (if necessary), and an example of use. Sometimes there is more than one example.  
+For each mutant, the following things should be included. Each item has a one-word name, a brief description including a unit of measurement (if necessary), and an example of use. Sometimes there is more than one example. 
+
+# Data Descriptions & Formatting Rules 
 
 ## mutant_name
 
-The mutant name
+**Description**: The mutant name
+
+**Format**: A string in the form `{native residue}{position}{designed residue}`, where `{native residue}` and `{designed residue}` are one-letter amino acid codes and `{position}` is the 1-indexed integer position of the residue in the BglB model sequence 
+
+**Example**:
 
 > E164A
 
 ## researcher
 
-Name of the undergraduate student researcher who did the work.
+**Description**: Name of the undergraduate student researcher(s) who designed and characterized this mutant
 
-One or more names
+**Format**: One or more names
+
+**Example**: 
 
 > Alex
 
@@ -22,43 +30,51 @@ One or more names
 
 ## box
 
-The physical location of the plasmid encoding this mutant, box number.
+**Description**: The physical location of the plasmid encoding this mutant, box number.
 
-Numerical index
+**Format**: Integer 
+
+**Example**:
 
 > 2
 
 ## row
 
-The physical location of the plasmid encoding this mutant, row letter.
+**Description**: The physical location of the plasmid encoding this mutant, row letter.
 
-Alphanumerical index
+**Format**: A letter (A-Z) indicating a row in the box 
+
+**Example**: 
 
 > B
 
 ## column
 
-The physical location of the plasmid encoding this mutant, column number. (A lot of the boxes only have columns up to 9.)
+**Description**: The physical location of the plasmid encoding this mutant, column number. (A lot of the boxes only have columns up to 9.)
 
-Numerical index
+**Format**: Integer indicating a column number 
+
+**Example**: 
 
 > 8
 
 ## expression
 
-Does the mutant appear on a gel after 2 independent attempts to produce and purify?
+**Description**: An answer to the question: "Does the mutant appear on a gel after 2 independent attempts to produce and purify?" (Note: if the mutant does not express, only the next section (gel image) is relevant. For all other sections, the entry is "N/A".)
 
-**Note**: if the mutant does not express, only the next section (gel image) is relevant. For all other sections, the entry is "NaN".
+**Format**: `1` for yes, `0` for no
 
-`1` for yes, `0` for no
+**Example**: 
 
 > 0
 
 ## gel_number
 
-The index of the gel that this mutant appears on. Gels for a given data set are labeled in order from 1. Gel images should be saved on the gel imaging computer completely labeled. Ladder should be labeled with its name, e.g. "Thermo PAGE-Rule". Mutants should be labeled with their names. Wild type proteins should be labeled as "WT". It's not necessary to further distinguish wild type proteins.
+**Description**: The index of the gel that this mutant appears on. Gels for a given data set are labeled in order from 1. Gel images should be saved on the gel imaging computer completely labeled. Ladder should be labeled with its name, e.g. "Thermo PAGE-Rule". Mutants should be labeled with their names. Wild type proteins should be labeled as "WT". It's not necessary to further distinguish wild type proteins.
 
-Numerical index
+**Format**: Numerical index
+
+**Example**: 
 
 > 4
 
